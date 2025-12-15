@@ -1,8 +1,8 @@
-title: "UV Automation"
-description: "I automate repetitive tasks to help small businesses run more efficiently."
+title: "Upper Valley Automation"
+description: "I automate tasks to help small businesses run more efficiently."
 baseurl: ""
 url: "https://mglass2.github.io"
 
 markdown: kramdown
-theme: null
+theme: jekyll-theme-cayman
 plugins: []
