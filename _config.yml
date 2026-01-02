@@ -1,3 +1,6 @@
 theme: jekyll-theme-cayman
 title: "Mike Glass"
 description: "Backend Software Engineer - Automation, Performance, Modernization"
+markdown: kramdown
+kramdown:
+   auto_ids: true
