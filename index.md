@@ -52,6 +52,7 @@ Worked as a hands-on, full stack developer focused on backend automation, databa
 - Supported Linux, Unix, and Oracle DB infrastructure for SAP ERP, Data Warehouse, and CRM environments.
 - ITIL V3 certified.
 
+<!-- 
 ## Questions
 
 Below are some common questions that I've either asked or been asked on interviews.
@@ -92,15 +93,15 @@ At a former employer, an ETL process that populated a large data warehouse had t
 **Describe a project on which you made a significant process impact?**
 At a former employer, the business paid royalties when using third party content.  Royalties were calculated by a manual report, sometimes taking the Content Team and a Junior Developer almost a week to compile.  I worked with the Content and Finance Teams to fully automate the report logic, store the results in a database, and display the outcome in Qlik's visualization platform.  Compiling the report became an automated process that took less than an hour.  An additional benefit became the cost savings that were discovered by substituting content that required smaller royalty payments.
 
-<!-- Sage ERP integration to automate purchase fulfillment. -->
-<!-- Web app to assign content via packaged grouping. -->
-<!-- Automated book basket picture maker -->
+<!-- Sage ERP integration to automate purchase fulfillment. 
+<!-- Web app to assign content via packaged grouping. 
+<!-- Automated book basket picture maker 
 
 **How do you use technology in your personal life?**
 I've used Linux (mostly Ubuntu) on my home computer for over a decade.  I also began using MacOS at home, after working at an employer that used Macbooks for all development.
 
 **What do you do outside of work?**
-I like to stay active and work with my hands - snowboarding, hockey, mountain biking, cooking, car maintenance, gardening, hiking.
+I like to stay active and work with my hands - snowboarding, hockey, mountain biking, cooking, car maintenance, gardening, hiking. -->
 
 ---
 
@@ -109,8 +110,12 @@ I like to stay active and work with my hands - snowboarding, hockey, mountain bi
 Bachelor of Science, Information Sciences and Technology (IST)
 
 
-<!-- ## Contact
+## Contact
 <div id="contact">
-  <p>Let's eliminate your most frustrating problem.</p>
-  <a class="cta" href="mailto:your@email.com">Email Me</a>
-</div> -->
+  <a href="https://www.linkedin.com/in/mglass2" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="#0A66C2">
+    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.366-1.85 3.598 0 4.263 2.368 4.263 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.123 2.062 2.062 0 0 1 0 4.123zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.727v20.545C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.273V1.727C24 .774 23.2 0 22.222 0z"/>
+  </svg>
+</a>
+
+</div>
