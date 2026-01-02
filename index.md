@@ -26,8 +26,11 @@ I'm a software engineer with experience across the technology stack.  My primary
 
 #### Sr. Full Stack Software Developer
 **American Reading Company / Blue Bell, PA & Remote**
+
 *May 2015 - January 2024*
+
 Worked as a hands-on, full stack developer focused on backend automation, database architecture, systems integration, feature/report development, performance, and testing for a SaaS performance management system in the education industry.
+
 - Owned nightly ETL process to populate core data warehouse.
 - Created web applications to coordinate management of digital products.
 - Designed data integrations with vendors and customers, including nightly classroom rostering for 500,000+ students.
@@ -39,7 +42,9 @@ Worked as a hands-on, full stack developer focused on backend automation, databa
 
 #### Front End Developer Team Lead
 **New Era Tickets / Exton, PA**
+
 *April 2010 - May 2015*
+
 - Led team that managed eCommerce event ticketing sites for 45+ clients including analytics, software upgrades, new features, and site themes.
 - Consulted with clients to build single page web applications for professional and collegiate sports marketing campaigns.
 - Transformed visual designs from clients into fully functional websites.
@@ -47,7 +52,9 @@ Worked as a hands-on, full stack developer focused on backend automation, databa
 
 #### Application Support Analyst
 **Mars Information Services / West Chester, PA**
+
 *July 2008 - April 2010*
+
 - Owned the ITIL incident, problem, and change processes for a global recipe management application (food/pet care industries).
 - Supported Linux, Unix, and Oracle DB infrastructure for SAP ERP, Data Warehouse, and CRM environments.
 - ITIL V3 certified.
