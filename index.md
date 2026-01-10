@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mike Glass
+title: Mike G.
 ---
 
 
