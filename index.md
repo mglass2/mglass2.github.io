@@ -5,20 +5,21 @@ title: Mike G.
 
 
 ## About Me
-I'm a software engineer with experience across the technology stack.  My primary focus is in backend software/systems and database architecture.  I enjoy designing solutions to difficult problems and automating inefficient processes.  I'm looking for a new challenge, and am open to any type of employment - full time, part time, temporary, contractor.
+I’m a software engineer with a focus in backend software and data modeling. I’m seeking a position where I can focus on systems architecture/design and delegate implementation details to AI coding assistants.  My goal is to deliver higher quality solutions in much less time than under a traditional software development model.
 
 
 ## Skills/Platforms
-- PHP
-- C# .NET
+- Anthropic Claude Code
 - Python
+- C# .NET
+- PHP (7.x+)
 - SQL / MySQL
 - Linux / Bash
 - Docker
 - Git
-- Redis
-- JIRA
-- RabbitMQ
+- Redis / Caching
+- RabbitMQ / Message Queues
+- Qlik / Metabase
 - Data Modeling & Database Architecture
 
 
