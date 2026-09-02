@@ -22,7 +22,7 @@ Most technical problems that cost a business real time and money trace back to t
 
 If you've got a slow database, a broken process, or a system nobody wants to touch — I'd like to hear about it.
 
-<a href="mailto:mglass2@gmail.com">Email Me</a> · <a href="https://www.linkedin.com/in/mglass2/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+<a href="mailto:mglass2@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/mglass2/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 
 ---
 
