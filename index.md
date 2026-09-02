@@ -18,6 +18,14 @@ Most technical problems that cost a business real time and money trace back to t
 
 ---
 
+## How Can I Help?
+
+If you've got a slow database, a broken process, or a system nobody wants to touch — I'd like to hear about it.
+
+**[Contact Me](mailto:mglass2@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/mglass2/)**
+
+---
+
 ## Case Studies
 
 ### Rescuing an Overnight ETL Job from a Legacy Monolith
@@ -58,10 +66,3 @@ Most technical problems that cost a business real time and money trace back to t
 
 **Status:** This is an active project. My near-term goal is to use the findings to challenge my own property's assessment, then publish the analysis for the town more broadly - giving homeowners a data-backed way to question their own valuations.
 
----
-
-## Let's Talk
-
-If you've got a slow database, a broken process, or a system nobody wants to touch — I'd like to hear about it.
-
-**[Contact Me](mailto:mglass2@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/mglass2/)**
