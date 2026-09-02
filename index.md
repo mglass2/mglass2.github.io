@@ -1,82 +1,67 @@
 ---
-layout: default
-title: Mike G.
+title: Database & Backend Systems Helper
+theme: jekyll-theme-minimal
 ---
 
+# Mike G.
+## Database & Backend Systems Helper
 
-## About Me
-I’m a software engineer with a focus in backend software and data modeling. I’m seeking a position where I can focus on systems architecture/design and delegate implementation details to AI coding assistants.  My goal is to deliver higher quality solutions in much less time than under a traditional software development model.
+Most technical problems that cost a business real time and money trace back to the same root causes: a system that wasn't designed for how the business grew, a process that was automated incorrectly (or not at all), or legacy code nobody wants to touch. I focus on diagnosing what's actually broken, then building a fix that holds up.
 
+**What I do:**
+- Troubleshooting slow, failing, or unreliable systems
+- Automating manual, error-prone business processes
+- Database performance and schema fixes
+- Rescuing or rewriting slow/failing batch jobs and ETL pipelines
+- Legacy system modernization (PHP, C#, Python, SQL, Docker, Linux)
+- Data migrations and system integrations
 
-## Skills/Platforms
-- Anthropic Claude Code
-- Python
-- C# .NET
-- PHP (7.x+)
-- SQL / MySQL
-- Linux / Bash
-- Docker
-- Git
-- Redis / Caching
-- RabbitMQ / Message Queues
-- Qlik / Metabase
-- Data Modeling & Database Architecture
+---
 
+## Case Studies
 
-## Experience/CV
+### Rescuing an Overnight ETL Job from a Legacy Monolith
 
-#### Sr. Full Stack Software Developer
-**American Reading Company / Blue Bell, PA & Remote**
+**Problem:** A nightly ETL process, written in single-threaded PHP inside a legacy monolith, was falling outside its required overnight processing window as the user base grew — putting downstream reporting and operations at risk.
 
-*May 2015 - January 2024*
+**What I Found:** The job's PHP implementation had no concurrency, no batching, and no error handling or retry logic. It processed records one at a time, made blocking database calls in sequence, and was tightly coupled to an inefficient, bloated monolith — leaving no room to scale or tune performance.
 
-Worked as a hands-on, full stack developer focused on backend automation, database architecture, systems integration, feature/report development, performance, and testing for a SaaS performance management system in the education industry.
+**What I Did:** I rewrote the entire ETL process as a standalone C# microservice running in Docker, fully decoupled from the legacy monolith. The new service used C#'s concurrency features to parallelize data lookups and calculations, and batched database writes instead of processing row-by-row. This also opened up straightforward options for future performance tuning.
 
-- Owned nightly ETL process to populate core data warehouse.
-- Created web applications to coordinate management of digital products.
-- Designed data integrations with vendors and customers, including nightly classroom rostering for 500,000+ students.
-- Architected Sage ERP integration to automate purchase fulfillment.
-- Created a data warehouse to simplify aggregate reporting.
-- Integrated custom data sets with Qlik and Metabase reporting tools.
-- Migrated legacy, monolith codebase to more modern practices (message queues, microservices, APIs, Docker).
-- Mentored developers and support staff on topics including product functionality, software structure/strategy, and goals.
+**Tech Stack:** PHP (legacy system), C# for the rewritten service, RabbitMQ for messaging, Docker and Linux for deployment, and SQL for data storage.
 
-#### Front End Developer Team Lead
-**New Era Tickets / Exton, PA**
+**Result:** Throughput improved 5-10x depending on allocated server resources. The job now completes well within its overnight window, with hours to spare.
 
-*April 2010 - May 2015*
+---
 
-- Led team that managed eCommerce event ticketing sites for 45+ clients including analytics, software upgrades, new features, and site themes.
-- Consulted with clients to build single page web applications for professional and collegiate sports marketing campaigns.
-- Transformed visual designs from clients into fully functional websites.
-- Optimized search, updated code, and managed content for ComcastTIX.com, a national event marketing website.
+### Automating Digital Content Fulfillment for an EdTech Platform
 
-#### Application Support Analyst
-**Mars Information Services / West Chester, PA**
+**Problem:** An EdTech company sold digital content in curated bundles that had grown into an exponential number of variations. Enabling each piece of content in a customer's account was done manually by the support team — slow and error-prone even in normal conditions, and made worse by the fact that most orders landed in a short summer purchasing window, when school districts place their orders. The manual workload consumed so much staff time that it directly cut into the team's ability to handle customer questions.
 
-*July 2008 - April 2010*
+**What I Did:** I designed and built an automated ERP integration and workflow that handled digital content fulfillment end-to-end, removing the manual enablement process entirely. I also built a web interface and a Qlik integration on top of it, giving both the customer service team and company management real-time visibility into order fulfillment status.
 
-- Owned the ITIL incident, problem, and change processes for a global recipe management application (food/pet care industries).
-- Supported Linux, Unix, and Oracle DB infrastructure for SAP ERP, Data Warehouse, and CRM environments.
-- ITIL V3 certified.
+**Tech Stack:** PHP, SQL, RabbitMQ for message queuing between systems, Sage ERP integration, and Docker for deployment.
 
+**Result:** Staff time on fulfillment dropped by roughly 90%, and fulfillment errors were reduced by more than 99% — freeing the support team to focus on customers during their busiest season.
 
-## Education
-**Pennsylvania State University**
-Bachelor of Science, Information Sciences and Technology (IST)
+---
 
+### Untangling a Town's Property Tax Assessments
 
-## Contact
-<p>
-  <a href="https://www.linkedin.com/in/mglass2" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
-    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="#0A66C2">
-      <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.366-1.85 3.598 0 4.263 2.368 4.263 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.123 2.062 2.062 0 0 1 0 4.123zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.727v20.545C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.273V1.727C24 .774 23.2 0 22.222 0z"/>
-    </svg>
-  </a>
-  <a href="https://github.com/mglass2" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
-    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="#181717">
-      <path d="M12 .296c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.089-.745.084-.729.084-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.469-2.381 1.236-3.221-.123-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.655 1.653.242 2.873.12 3.176.77.84 1.235 1.911 1.235 3.221 0 4.61-2.807 5.625-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .322.216.694.825.576 C20.565 22.092 24 17.592 24 12.296 c0-6.627-5.373-12-12-12z"/>
-    </svg>
-  </a>
-</p>
-<p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+**Problem:** Property tax assessments are supposed to follow a consistent methodology, but it's often unclear whether they actually do. I wanted to find out whether valuations were being calculated fairly and consistently across properties.
+
+**What I Found:** Pulling together public assessment records and real estate data, I found no clear, consistent standard for how the taxable rate per square foot was being applied — similar properties were landing on meaningfully different valuations with no obvious justification. The assessment process itself showed signs of inconsistency rather than a clean, defensible formula.
+
+**What I Did:** I built a data pipeline that combines public town assessment records with scraped real estate listing data, cleans and joins them into a unified dataset, and analyzes the relationship between property characteristics and assessed value. The tool surfaces properties that are outliers relative to comparable homes, and highlights where the underlying valuation logic breaks down.
+
+**Tech Stack:** Python, PostgreSQL for data storage, Docker, geopy for geocoding, and Matplotlib/Seaborn for report visualizations. I used the Anthropic's toolset to speed up development throughout.
+
+**Status:** This is an active project. My near-term goal is to use the findings to challenge my own property's assessment, then publish the analysis for the town more broadly - giving homeowners a data-backed way to question their own valuations.
+
+---
+
+## Let's Talk
+
+If you've got a slow database, a broken process, or a system nobody wants to touch — I'd like to hear about it.
+
+**[Contact Me](mailto:mglass2@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/mglass2/)**
