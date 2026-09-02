@@ -28,7 +28,8 @@ If you've got a slow database, a broken process, or a system nobody wants to tou
 
 ## Case Studies
 
-### Rescuing an Overnight ETL Job from a Legacy Monolith
+<details>
+<summary><strong>Rescuing an Overnight ETL Job from a Legacy Monolith</strong></summary>
 
 **Problem:** A nightly ETL process, written in single-threaded PHP inside a legacy monolith, was falling outside its required overnight processing window as the user base grew — putting downstream reporting and operations at risk.
 
@@ -40,9 +41,10 @@ If you've got a slow database, a broken process, or a system nobody wants to tou
 
 **Result:** Throughput improved 5-10x depending on allocated server resources. The job now completes well within its overnight window, with hours to spare.
 
----
+</details>
 
-### Automating Digital Content Fulfillment for an EdTech Platform
+<details>
+<summary><strong>Automating Digital Content Fulfillment for an EdTech Platform</strong></summary>
 
 **Problem:** An EdTech company sold digital content in curated bundles that had grown into an exponential number of variations. Enabling each piece of content in a customer's account was done manually by the support team — slow and error-prone even in normal conditions, and made worse by the fact that most orders landed in a short summer purchasing window, when school districts place their orders. The manual workload consumed so much staff time that it directly cut into the team's ability to handle customer questions.
 
@@ -52,9 +54,10 @@ If you've got a slow database, a broken process, or a system nobody wants to tou
 
 **Result:** Staff time on fulfillment dropped by roughly 90%, and fulfillment errors were reduced by more than 99% — freeing the support team to focus on customers during their busiest season.
 
----
+</details>
 
-### Untangling a Town's Property Tax Assessments
+<details>
+<summary><strong>Untangling a Town's Property Tax Assessments</strong></summary>
 
 **Problem:** Property tax assessments are supposed to follow a consistent methodology, but it's often unclear whether they actually do. I wanted to find out whether valuations were being calculated fairly and consistently across properties.
 
@@ -66,3 +69,4 @@ If you've got a slow database, a broken process, or a system nobody wants to tou
 
 **Status:** This is an active project. My near-term goal is to use the findings to challenge my own property's assessment, then publish the analysis for the town more broadly - giving homeowners a data-backed way to question their own valuations.
 
+</details>
