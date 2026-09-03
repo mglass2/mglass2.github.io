@@ -1,5 +1,6 @@
 title: Database & Backend Systems Helper
-description: "Database performance fixes, automation, and legacy system modernization for businesses in the Upper Valley and Central NH."
+# description: "Database performance fixes, automation, and legacy system modernization for businesses in the Upper Valley and Central NH."
+description: ""
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-sitemap
