@@ -6,7 +6,9 @@ theme: jekyll-theme-minimal
 # Mike G.
 ## Database & Backend Systems Helper
 
-Most technical problems that cost a business real time and money trace back to the same root causes: a system that wasn't designed for how the business grew, a process that was automated incorrectly (or not at all), or legacy code nobody wants to touch. I focus on diagnosing what's actually broken, then building a fix that holds up.
+<a href="mailto:mglass2@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/mglass2/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+
+Most technical problems that cost a business real time and money trace back to the same root causes: a system that wasn't designed for how the business grew, a process that was automated incorrectly (or not at all), or legacy code nobody wants to touch. I focus on diagnosing what's actually broken, then building a fix that holds up.  If you've got a slow database, a broken process, or a system nobody wants to touch, I'd like to hear about it.
 
 **What I do:**
 - Troubleshooting slow, failing, or unreliable systems
@@ -24,13 +26,6 @@ I actively use AI-assisted development tools in my work.  I think that is where 
 
 I am located between the Upper Valley and Concord, NH. If you're in this general area, I'd like to work with you directly, in person when it's useful, and with the kind of accountability that comes from being part of the same community.
 
----
-
-## How Can I Help?
-
-If you've got a slow database, a broken process, or a system nobody wants to touch, I'd like to hear about it.
-
-<a href="mailto:mglass2@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/mglass2/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 
 ## Pricing
 
