@@ -20,6 +20,12 @@ I actively use AI-assisted development tools in my work.  I think that is where 
 
 ---
 
+## Local Focus
+
+I am located between the Upper Valley and Concord, NH. If you're in this general area, I'd like to work with you directly, in person when it's useful, and with the kind of accountability that comes from being part of the same community.
+
+---
+
 ## How Can I Help?
 
 If you've got a slow database, a broken process, or a system nobody wants to touch, I'd like to hear about it.
