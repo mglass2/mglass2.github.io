@@ -16,17 +16,33 @@ Most technical problems that cost a business real time and money trace back to t
 - Legacy system modernization (PHP, C#, Python, SQL, Docker, Linux)
 - Data migrations and system integrations
 
+I actively use AI-assisted development tools in my work.  I think that is where the industry is heading, and that clients benefit from it. The judgment, architecture, and accountability are still entirely mine.  The tools just make the process more efficient.
+
 ---
 
 ## How Can I Help?
 
-If you've got a slow database, a broken process, or a system nobody wants to touch — I'd like to hear about it.
+If you've got a slow database, a broken process, or a system nobody wants to touch, I'd like to hear about it.
 
 <a href="mailto:mglass2@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/mglass2/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 
+## Pricing
+
+Here are my rules for pricing:
+- You pay for outcomes, not hours.  Hourly-rate billing rewards slow work.  It is the wrong incentive.
+- If I don't deliver outcomes, you don't pay.
+- Conversations are free.
+
+Pricing process:
+- We discuss the project, your challenges, your goals, and what a successful outcome looks like.
+- We arrive at an agreeable price to achieve specific outcomes.
+- I provide you with a written scope of work, which includes the measures of success that define project completion and our agreed-upon price.
+- If the scope of the project meaningfully changes at any point, it is my responsibility to raise that issue with you.  We then have another conversation to clarify outcomes and pricing.
+
+
 ---
 
-## Case Studies
+## Real Examples
 
 <details markdown="1">
 <summary><strong>Rescuing an Overnight ETL Job from a Legacy Monolith</strong></summary>
