@@ -20,7 +20,6 @@ Most technical problems that cost a business real time and money trace back to t
 
 I actively use AI-assisted development tools in my work.  I think that is where the industry is heading, and that clients benefit from it. The judgment, architecture, and accountability are still entirely mine.  The tools just make the process more efficient.
 
----
 
 ## Local Focus
 
@@ -40,8 +39,6 @@ Pricing process:
 - I provide you with a written scope of work, which includes the measures of success that define project completion and our agreed-upon price.
 - If the scope of the project meaningfully changes at any point, it is my responsibility to raise that issue with you.  We then have another conversation to clarify outcomes and pricing.
 
-
----
 
 ## Real Examples
 
